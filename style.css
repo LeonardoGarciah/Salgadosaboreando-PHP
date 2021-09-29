@@ -1,0 +1,570 @@
+.primeiracor{
+    background-color: #FF6F00;
+}
+.corsecundaria{
+    background-color: #FF9900;
+}
+.corterceira{
+    background-color: #FBA524;
+}
+
+.nav-link:hover {
+    color: black !important;
+    padding-bottom: 10  px !important;
+    border-bottom: 2px solid black;
+}
+
+@font-face {
+	font-family: Insanibc;
+	src: url(fonte/Insanibc.ttf)
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.congelados-box:hover .buy{
+    visibility: visible;
+    animation: 1s opacidade;
+
+
+}
+@keyframes opacidade {
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+}
+.buy {
+
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.buy img{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.buy h3{
+    text-align: center;
+    color: rgb(14, 221, 14);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buy button{
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    cursor: pointer;
+}
+
+.shadow2 {
+    box-shadow: 3px 1px 5px black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Insanibc;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#menu{
+    margin-left: 70%;
+}
+
+
+
+.white{
+    color: white;
+}
+
+/* Sessão sliders */
+
+section.sliders{
+    display: flex;
+    justify-content: center;
+}
+
+/* div{
+    border: 2px solid blue;
+} */
+
+
+section.congelados{
+
+}
+
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem{
+    margin-top: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+.imagem img{
+    margin-top: 40px;
+}
+
+.nome {
+    margin-left: 80px;
+}
+
+.nome h1{
+    margin-top: 130px;
+    margin-left: 30px;
+    font-size: 70px;
+    text-align: right;
+}
+
+/* fim sessão sliders */
+
+/* Sessão congelados */
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.congelados-contents{
+
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.congelados-contents .icone{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.congelados-box{
+
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    animation-name: out;
+    animation-duration: .3s;
+}
+
+.nome-unidade{
+    padding-top: 30px;
+    width: 200px;
+    text-align: right;
+    color: white;
+}
+.preco {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.center #pedir{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    width: 300px;
+    
+}
+
+.center i a{
+    color: white;
+    margin-left: 10px;
+}
+
+.center #pedir{
+    
+   color: chartreuse;
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+/* FIm congelados */
+
+#fritos{
+    max-width: 70%;
+    width: 100%;
+
+}
+/* 
+Contatos */
+
+.contacts{
+    width: 60%;
+    height: 50px;
+    margin-top: 80px;
+}
+
+.contacts i {
+    font-size: 25px;
+}
+
+.contacts i a{
+    margin-left: 10px;
+}
+
+/* Comentarios */
+
+.comentarios {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coment {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.coment .user{
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.user {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.user #profile{
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.user h5{
+    margin-left: 10px;
+    color: white;
+}
+
+.user #star{
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: -27px;
+}
+
+@media screen and (max-width: 1218px){
+    #sectionfritos{
+        height: 1400px;
+    }
+    #fritos {
+        height: 1200px;
+    }
+}
+
+@media screen  and (max-width: 1139px){
+    /* .congelados-contents{
+        height: 1700px;
+    } */
+    /* #sectionfritos{
+        height: 1400px;
+    } */
+
+}
+@media screen and (max-width: 1010px) {
+    .comentarios {
+        height: 500px;
+    }
+}
+@media screen  and (max-width: 677px){
+    .comentarios {
+        height: 800px;
+    }
+    .imagem img{
+        width: 70%;
+        margin-left: 100px
+    }
+}
+@media screen  and (max-width: 817px){
+    .primeiracor{
+        background-color: #c25400;
+    }
+    .corsecundaria{
+        background-color: #dd8500;
+    }
+    .corterceira{
+        background-color: #e09018;
+    }
+    #sectionfritos{
+        height: 2500px;
+    }
+    #fritos{
+        height: 2300px;
+    }
+}
+@media screen and (max-width: 579px){
+    .congelados-contents{
+        height: 4350px;
+    }
+    .primeiracor{
+        background-color: #c25400;
+    }
+    .corsecundaria{
+        background-color: #dd8500;
+    }
+    .corterceira{
+        background-color: #e09018;
+    }
+    #quibe {
+        margin-left: 20px;
+    }
+    #esfirra{
+        margin-left: 30px;
+    }
+    #salsicha, #coxinha, #bolinho {
+    margin-top: 100px;
+    }
+    #presunto {
+        height: 400px;
+    }
+}
+
+@media screen  and (max-width: 991px){
+    #menu {
+        margin-left: 0px;
+        text-align: center;
+    }      
+}
+
+
+
+
+
+
+
+
+
+
+/* LOGIN */
+
+section.login{
+    display: flex;
+    justify-content: center;
+}
+
+.tela-login{
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.tela-login h1{
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid orange;
+}
+
+.tela-login form{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial;
+}
+
+.tela-login form input{
+    outline: 0;
+    padding: 10px;
+}
+
+.tela-login form input[type="password"]{
+    margin-top: 30px;
+}
+
+.tela-login form input[type="submit"]{
+    margin-top: 30px;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.tela-login form input[type="submit"]:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+/* PAINEL */
+
+.menu-left{
+    margin-top: 77px;
+    border-right: 2px solid orange;
+    float: left;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-left h5:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.adicionar {
+    margin-top: 100px;
+    text-align: center;
+    border: 2px solid black;
+    float: right;
+    width: 1000px;
+    height: 500px;
+}
+
+.adicionar form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adicionar input{
+    width: 500px;
+    margin-top: 30px;
+}
+
+.adicionar form input[type="submit"]{
+
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.adicionar form input[type="submit"]:hover {
+    background-color: orange;
+}
+
+td{
+    font-family: Arial;
+}
+.modal-footer button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown i {
+      margin-top: 13px;
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .dropdown p {
+      font-weight: normal;
+      font-family: Arial;
+      font-size: 10px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+  }
+
+
+  .dropdown-content a{
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .rol {
+      overflow-y: scroll;
+      height: 150px;
+  }
